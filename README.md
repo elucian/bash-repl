@@ -1,7 +1,7 @@
 # bash-repl
 Bash REPL APP demo for learning.
 
-Examples for: [my tutorial](https://sagecode.net/seng/bash.html)
+Run here: [bash-repl](https://replit.com/@elucian/bash-repl#main.sh)
 
 ---
 Copiright (c) - Elucian Moise 2022 
