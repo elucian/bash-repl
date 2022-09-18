@@ -1,18 +1,16 @@
-function selection()
-{ 
-   echo "sub-menu:"
-   local options="one two three break"
-   # demonstrate selection
-   select x in $options;
-   do
-      # demonstrate case;
-      case $x in
-        (break) echo "done"; 
-                break;;
-        (one)        echo "one";;
-        (two|three)  echo "other";;     
-      esac #end of case
-   done #end of select
-}
-
-selection()
+# demo for selection
+echo "sub-menu:"
+options="one two three break"
+# demonstrate selection
+select x in $options; 
+do
+    # demonstrate case;
+    if [ "$x" == "break" ]; then
+       echo "done" 
+       break # exit selection
+    elif [ "$x" == "one" ]; then
+       echo "one"
+    else
+       echo "other"
+    fi #end if
+done

@@ -1,9 +1,14 @@
 #main demo for Bash script
-function hello() 
+function hello
 {
   echo Hello World
 }
 
+# function with parameter
+function print
+{
+  echo $1
+}
 
 # start main program
 echo "main menu"
@@ -15,17 +20,23 @@ menu="exit
       until 
       for 
       case 
-      decision"
+      decision
+      selection
+      print
+      math
+      return
+"
 
 # display options and prompt
 select option in $menu; 
 do
-  echo "-------------------"
+  echo "-------------------------------"
   # jump table like switch
   case $option in
     (exit) echo "goodby"; break;;
     (hello) hello;;
-    (case) selection;;
+    (print) print "hello there";;
+    (case) case.sh;;
     (if) decision;;
     # call external script 
     (while) source ./while.sh;;
@@ -33,8 +44,10 @@ do
     (for)   source ./for.sh;;
     (decision)   source ./decision.sh;;
     (selection)  source ./selection.sh;;
+    (math) source ./math.sh;;
+    (return) source ./return.sh;;
   esac
-  echo "-------------------"
+  echo "-------------------------------"
 done
 
 # end of program demo
