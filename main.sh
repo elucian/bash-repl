@@ -1,5 +1,5 @@
 #main demo for Bash script
-function hello
+function hello 
 {
   echo Hello World
 }
@@ -25,6 +25,7 @@ menu="exit
       print
       math
       return
+      array
 "
 
 # display options and prompt
@@ -44,10 +45,10 @@ do
     (for)   source ./for.sh;;
     (decision)   source ./decision.sh;;
     (selection)  source ./selection.sh;;
-    (math) source ./math.sh;;
+    (math)   source ./math.sh;;
     (return) source ./return.sh;;
+    (array) source ./array.sh;;
   esac
   echo "-------------------------------"
 done
-
 # end of program demo
