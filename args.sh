@@ -1,4 +1,4 @@
-#!/bin/bash
+m#!/bin/bash
 
 # test if there are arguments
 if [ $# = 0 ]; then
