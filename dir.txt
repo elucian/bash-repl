@@ -1,0 +1,34 @@
+total 124
+-rw-r--r-- 1 runner runner  196 Sep 24 15:34 args.sh
+-rw-r--r-- 1 runner runner  226 Sep 19 22:59 array.sh
+-rw-r--r-- 1 runner runner  358 Sep 18 18:41 case.sh
+-rw-r--r-- 1 runner runner   84 Sep 24 09:16 c-for.sh
+-rw-r--r-- 1 runner runner  246 Sep 29 00:40 chain.sh
+-rw-r--r-- 1 runner runner  210 Sep 25 22:54 colon.sh
+-rw-r--r-- 1 runner runner  162 Oct  3 02:33 com-group.sh
+-rw-r--r-- 1 runner runner  233 Oct  3 02:15 command.sh
+-rw-r--r-- 1 runner runner  139 Oct  3 02:43 conditionals.sh
+-rw-r--r-- 1 runner runner  527 Oct  3 22:10 decision.sh
+-rw-r--r-- 1 runner runner  593 Sep 18 22:53 demo.sh
+-rw-r--r-- 1 runner runner    0 Oct  3 22:13 dir.txt
+-rw-r--r-- 1 runner runner   43 Sep 24 09:16 files.sh
+-rw-r--r-- 1 runner runner  214 Oct  1 19:00 for.sh
+-rw-r--r-- 1 runner runner  178 Sep 28 00:00 forxp.sh
+-rw-r--r-- 1 runner runner  166 Oct  3 20:53 input.sh
+-rw-r--r-- 1 runner runner  118 Oct  3 22:12 local.sh
+-rw-r--r-- 1 runner runner 1001 Sep 19 20:12 main.sh
+-rw-r--r-- 1 runner runner   65 Sep 18 19:03 math.sh
+-rw-r--r-- 1 runner runner  267 Sep 24 14:58 operator.sh
+-rw-r--r-- 1 runner runner  176 Oct  1 19:03 range.sh
+-rw-r--r-- 1 runner runner   64 Sep 24 09:16 read-file.sh
+-rw-r--r-- 1 runner runner  156 Sep 17 00:33 README.md
+-rw-r--r-- 1 runner runner  131 Oct  3 22:13 redirect.sh
+-rw-r--r-- 1 runner runner  137 Oct  3 02:19 replit.nix
+-rw-r--r-- 1 runner runner  195 Sep 18 19:48 return.sh
+-rw-r--r-- 1 runner runner  324 Sep 18 18:53 selection.sh
+-rw-r--r-- 1 runner runner  150 Sep 27 23:38 strxp.sh
+-rw-r--r-- 1 runner runner  135 Sep 24 09:16 sub.sh
+-rw-r--r-- 1 runner runner   61 Sep 24 09:16 test.txt
+-rw-r--r-- 1 runner runner  356 Sep 17 18:25 until.sh
+-rw-r--r-- 1 runner runner  355 Sep 17 18:40 while.sh
+done

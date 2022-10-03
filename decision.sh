@@ -28,4 +28,4 @@ function run()
   fi
 }
 
-run;
+run
