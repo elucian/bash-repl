@@ -9,5 +9,5 @@ done
 # For loop with reverse number range
 for i in {5..0}
 do
-        echo "Element $i"
+    echo "Element $i"
 done
