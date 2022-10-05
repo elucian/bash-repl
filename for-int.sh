@@ -2,7 +2,7 @@
 for (( i=0; i<=100; i++ ))
 do
    # Output only even numbers
-   if ((  (( i % 2 ))  == 0 )); then
+   if ((  i % 2 == 0 )); then
       echo "Element $i"
       continue
    fi
