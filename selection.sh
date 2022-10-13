@@ -1,5 +1,4 @@
 # demo for selection
-echo "sub-menu:"
 options="one two three break"
 # demonstrate selection
 select x in $options; 
