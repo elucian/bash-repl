@@ -1,7 +1,7 @@
 #source script
 let x=0
 echo "start x = 0"
-while [[ $x -lt 10 ]]
+while [[ $x -lt 5 ]]
 do
      echo "x = $x"
      let x+=1
