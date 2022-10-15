@@ -8,5 +8,5 @@ function factorial {
   fi
   echo $r; return 0
 }
-
+#use parameter 
 echo $(factorial $1)
