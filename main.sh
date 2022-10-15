@@ -29,7 +29,7 @@ menu="exit
 "
 
 # display options and prompt
-select option in $menu; 
+select option in $menu
 do
   echo "-------------------------------"
   # jump table like switch
