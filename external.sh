@@ -1,7 +1,7 @@
-#iport external functions
+#import external functions
 source ./functions.sh
 
-# call sum with args
+# call sum and exp
 for x in {1..5}
 do
   s=$(sum $x 2);
