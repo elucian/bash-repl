@@ -8,5 +8,9 @@ function factorial {
   fi
   echo $r; return 0
 }
-#use parameter 
+#use parameter
+if [ $# == 0 ]; then
+   echo "use: faxtorial.sh x "
+   exit 1
+fi
 echo $(factorial $1)
