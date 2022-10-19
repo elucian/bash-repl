@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+        pkgs.shopify-themekit
         pkgs.sgtpuzzles
         pkgs.1+1
         pkgs.hpx

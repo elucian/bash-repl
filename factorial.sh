@@ -12,5 +12,5 @@ function factorial {
 if [ $# == 0 ]; then
    echo "use: faxtorial.sh x "
    exit 1
-fi
+fico
 echo $(factorial $1)
